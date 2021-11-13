@@ -1,18 +1,8 @@
-public class SelectionSort {
-
-    public static void main(String... args){
-
-        int[] array={12,4,8,1,9,6,10,18,11,3};
-        selectionSort(array);
-        for (int i :
-                array) {
-            System.out.print(i+" ");
-
-        }
-    }
+public class SelectionSort extends Sort{
 
     //Time complexity is O(n2)
-    private static void selectionSort(int[] array) {
+    static void sort(int[] array) {
+        System.out.println(SelectionSort.class.getCanonicalName());
         for (int i=0;i<array.length;i++){
 
             int min=i;
@@ -24,11 +14,7 @@ public class SelectionSort {
         }
     }
 
-    private static void swap(int[] array, int i, int min) {
-        int temp=array[i];
-        array[i]=array[min];
-        array[min]=temp;
-    }
+
 
 
 }
