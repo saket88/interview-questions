@@ -11,6 +11,7 @@ public class SelectionSort {
         }
     }
 
+    //Time complexity is O(n2)
     private static void selectionSort(int[] array) {
         for (int i=0;i<array.length;i++){
 
