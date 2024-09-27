@@ -7,7 +7,6 @@ import java.util.Map;
  * [previous->"null", value->"b", next->"c"],
  * [previous->"c", value->"a", next->"null"],
  * [previous->"d", value->"e", next->"null"]
- *
  * Output:-
  * b -> c -> d -> e -> a
  */
